@@ -51,7 +51,7 @@
 	
 \begin{minipage}[t]{2.3in}
 \vspace{0pt}
-%\cellwidth{3em}
+\cellwidth{3em}
 \gradetablestretch{2}
 \vqword{Problem}
 \addpoints % required here by exam.cls, even though questions haven't started yet.	
@@ -61,10 +61,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% See http://www-math.mit.edu/~psh/#ExamCls for full documentation, but the questions
-% below give an idea of how to write questions [with parts] and have the points
-% tracked automatically on the cover page.
-%
+% See http://www-math.mit.edu/~psh/#ExamCls 참조
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{questions}
@@ -81,6 +78,7 @@
 	\choice $4x^3-2x^2-3x-3$
 \end{choices}
 \vspace{1.0in}
+
 % Question 2
 \addpoints
 \question[4] $(x-2))(x+2)(x^2+4)(x^4+16)$을 전개한 것은?
@@ -92,6 +90,41 @@
 	\choice $x^8-256$
 \end{choices}
 \vspace{1.0in}
+
+%선택형 14번
+\addpoints
+\question[5] 방정식 $x^3-1=0$의 한 허근 $w$에 대하여 $f(n) = \frac{w^{-4n} + 1}{w^{4n}}$로 정의할 때, $f(1) + f(2) + f(3)+...+f(2014)$의 값은? (단, $n$은 자연수이고, $\bar{w}$는 $w$의 켤레복소수이다.)
+\begin{choices}
+	\choice $-2$
+	\choice $-1$
+	\choice $0$
+	\choice $1$
+	\choice $2$
+\end{choices}
+\vspace{1.0in}
+
+%선택형 15번
+\addpoints
+\question[4] 연립일차방정식 $\begin{cases}x+y=5 \\y+z=2 \\ z+x=1 \end{cases} $의 해를 $x=\alpha$, $y=\beta$, $z=\gamma$라 할 때, $\alpha + \beta + \gamma$의 값은?
+\begin{choices}
+	\choice $5$
+	\choice $4$
+	\choice $3$
+	\choice $2$
+	\choice $1$
+\end{choices}
+\vspace{1.0in}
+
+% 선택형 16번
+\addpoints
+\question[5] 연립방정식 $\begin{cases}x^2+y^2-xy=7 \\x^2+y^2-x-y=8 \end{cases}$ 의 해를 $x=\alpha$, $y=\beta$ 라 할 때, $\alpha-\beta$의 최소값은?
+\begin{choices}
+	\choice $5$
+	\choice $2\sqrt{2}$
+	\choice $-3$
+	\choice $-2$
+	\choice $-2\sqrt{2}$
+\end{choices}
 
 \newpage
 
@@ -109,7 +142,7 @@
 \vspace{2in}
 \end{parts}
 
-\newpage
+%\newpage
 % 서술형 2번
 \addpoints
 \question[8] 두 다항식 $f(x)$, $g(x)$에 대하여 다항식 $f(x) + g(x)$를 $x+2$로 나누었을 때의 나머지가 5이고, 다항식 $f(x)g(x)$를 $x+2$로 나누었을 때의 나머지가 3이다. 이때 다항식 ${f(x)}^3+{g(x)}^3$을 x+2로 나누었을때의 나머지를 구하고 그 과정을 서술하시오.
